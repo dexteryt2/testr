@@ -1,0 +1,25 @@
+# Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+build/
+.pub-cache/
+
+# Android
+android/local.properties
+android/.gradle
+android/app/src/main/res/{values,*
+*.keystore
+*.jks
+
+# Assets (downloaded by CI)
+assets/xray-arm64-v8a
+assets/fonts/*.ttf
+assets/icon/*.png
+
+# Keep directory structure
+!assets/fonts/.gitkeep
+!assets/icon/.gitkeep
+
+# Misc
+.DS_Store
